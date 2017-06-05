@@ -21,13 +21,13 @@ bin_dir: /usr/local/bin
 #etcd_multiaccess: true
 
 ## External LB example config
-## apiserver_loadbalancer_domain_name: "elb.some.domain"
+#apiserver_loadbalancer_domain_name: "ovs-12.mvdcdev44.us.alcatel-lucent.com"
 #loadbalancer_apiserver:
-#  address: 1.2.3.4
-#  port: 1234
+#  address: 10.31.32.70
+#  port: 6443
 
 ## Internal loadbalancers for apiservers
-#loadbalancer_apiserver_localhost: true
+loadbalancer_apiserver_localhost: true
 
 ## Local loadbalancer should use this port instead, if defined.
 ## Defaults to kube_apiserver_port (6443)
